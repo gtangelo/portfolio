@@ -21,4 +21,17 @@ export const CardContainer = styled.div`
   margin-bottom: 10px;
 `
 
+export const NavbarContainer = styled.nav`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  gap: 80px;
+`
+
 export default Container

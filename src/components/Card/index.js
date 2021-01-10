@@ -1,13 +1,7 @@
 import React from 'react'
-import { CardContainer } from 'components/Container';
-import {
-  CardHeading,
-  CardDescription,
-} from "components/Title"
+import { CardContainer } from "styled-components/Container"
+import { CardHeading, CardDescription } from "styled-components/Title"
 import './index.css'
-
-
-
 
 const Card = ({img, title, description, labels}) => {
   return (

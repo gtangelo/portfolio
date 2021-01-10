@@ -1,55 +1,28 @@
-.navbar-container {
+.logo {
+  position: absolute;
+  max-width: 1430px;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 10vh;
-  width: 100%;
-  background: #1a1a1a;
-}
-
-header {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo {
-  font-size: 28px;
-  text-decoration: none;
-  font-family: 'Roboto Mono', monospace;
   z-index: 1;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-left: 30px;
 }
 
-.menu-container {
-  display: none;
-  filter: invert(1);
+.svg-logo {
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.navbar-links-container {
-  width: 300px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.nav-item, .logo {
-  flex: 1;
-  list-style: none;
-  transition: all 0.3 ease;
+.svg-logo:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
 }
 
 .nav-item {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-link, .logo {
-  color: #ffffff;
+  z-index: 2;
+  list-style: none;
 }
 
 .nav-link {
@@ -59,12 +32,21 @@ header {
   text-decoration: none;
   text-transform: lowercase;
   font-size: 20px;
-  transition: all 0.2s ease-out;
+  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
+  color: #FFFFFF;
 }
 
 .nav-link:hover {
-  transition: all 0.2s ease-in;
+  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
   color: #9e9e9e;
+  transform: scale(1.1);
+}
+
+.menu-container {
+  display: none;
+  filter: invert(1);
 }
 
 

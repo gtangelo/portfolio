@@ -3,17 +3,13 @@ import Layout from "components/Layout"
 import { ExpandMoreRounded } from "@material-ui/icons"
 // import ProjectCard from "../components/ProjectCard"
 import "./index.css"
-import { Container } from "components/Container"
+import { Container } from "styled-components/Container"
 import { data } from "../data"
 import Particles from "react-particles-js";
-import {
-  Heading,
-  Subheading,
-  HeroDescription,
-} from "components/Title"
-import Card from "../components/Card";
+import { Heading, Subheading, HeroDescription } from "styled-components/Title"
+import Card from "components/Card";
 
-export default function Home() {
+const Home = () => {
   return (
     <Layout>
       <div className="wave-container">
@@ -79,3 +75,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export default Home;
