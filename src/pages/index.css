@@ -1,0 +1,86 @@
+/* particles and wave background css styling*/
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 65vh;
+}
+
+.wave-container {
+  position: relative;
+  height: 65vh;
+  background: linear-gradient(180deg, #174066 0%, #1254A2 100%);
+}
+
+.custom-shape-divider-bottom-1610233301 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1610233301 svg {
+  position: relative;
+  display: block;
+  width: calc(163% + 1.3px);
+  height: 96px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1610233301 .shape-fill {
+  fill: #FAFAFA;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1610233301 svg {
+      width: calc(163% + 1.3px);
+      height: 69px;
+  }
+}
+
+/* hero section css styling*/
+#hero-section {
+  height: 70vh;
+  width: 100%;
+  color: #FFFFFF;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner-arrow {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.arrow-down:hover {
+  cursor: pointer;
+}
+
+
+/* selected projects section */
+#projects-section {
+  width: 100%;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* card css styling*/
+#cards-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+

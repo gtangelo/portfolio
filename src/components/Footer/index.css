@@ -1,0 +1,25 @@
+.wave-footer-container {
+  position: relative;
+  height: 30vh;
+  background: linear-gradient(360deg, #174066 0%, #1254A2 100%);
+}
+
+.custom-shape-divider-top-1610246279 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1610246279 svg {
+  position: relative;
+  display: block;
+  width: calc(184% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-top-1610246279 .shape-fill {
+  fill: #FAFAFA;
+}
