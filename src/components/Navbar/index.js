@@ -48,26 +48,18 @@ const Navbar = () => {
           </svg>
         </Link>
       </div>
-      <li className="nav-item">
         <Link to="/about" className="nav-link" onClick={closeMenu}>
-          <li>About</li>
+          About
         </Link>
-      </li>
-      <li className="nav-item">
         <Link to="/project" className="nav-link" onClick={closeMenu}>
-          <li>Projects</li>
+          Projects
         </Link>
-      </li>
-      <li className="nav-item">
         <Link to="/resume" className="nav-link" onClick={closeMenu}>
-          <li>Resume</li>
+          Resume
         </Link>
-      </li>
-      <li className="nav-item">
         <Link to="/blog" className="nav-link" onClick={closeMenu}>
-          <li>Blog</li>
+          Blog
         </Link>
-      </li>
     </NavbarContainer>
   )
 }

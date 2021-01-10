@@ -20,10 +20,10 @@
   transform: scale(1.1);
 }
 
-.nav-item {
+/* .nav-item {
   z-index: 2;
   list-style: none;
-}
+} */
 
 .nav-link {
   display: flex;
@@ -35,6 +35,7 @@
   transition: color 0.3s ease;
   transition: transform 0.3s ease;
   color: #FFFFFF;
+  z-index: 2;
 }
 
 .nav-link:hover {
