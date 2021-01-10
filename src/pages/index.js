@@ -4,7 +4,7 @@ import { ExpandMoreRounded } from "@material-ui/icons"
 // import ProjectCard from "../components/ProjectCard"
 import "./index.css"
 import { Container } from "components/Container"
-import { data } from "./data"
+import { data } from "../data"
 import Particles from "react-particles-js";
 import {
   Heading,

@@ -6,8 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [
-    "gatsby-plugin-resolve-src",
-    "gatsby-plugin-styled-components"
-  ],
+  plugins: ["gatsby-plugin-resolve-src", "gatsby-plugin-styled-components"],
+  pathPrefix: "/portfolio",
 }
