@@ -76,11 +76,10 @@
 
 
 /* card css styling*/
-#cards-section {
+.cards-section {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 2rem;
+  justify-content: space-between;
 }
 

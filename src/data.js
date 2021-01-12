@@ -28,7 +28,7 @@ const TESTING = {
   colour: "#2EA44F",
 }
 
-export const data = [
+export const projects = [
   {
     title: "Traceback",
     description:
@@ -64,4 +64,14 @@ export const data = [
   //   labels: [PYTHON],
   //   pageURL: "",
   // },
+]
+
+export const blogs = [
+  {
+    title: "STEM Leaders Program",
+    description:
+      "Traceback is a Google Chrome extension which records the time user spends on different tasks.",
+    labels: [REACTJS],
+    pageURL: "",
+  },
 ]

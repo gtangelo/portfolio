@@ -4,7 +4,7 @@ import { ExpandMoreRounded } from "@material-ui/icons"
 // import ProjectCard from "../components/ProjectCard"
 import "./index.css"
 import { Container } from "styled-components/Container"
-import { data } from "../data"
+import { projects, blogs } from "../data"
 import Particles from "react-particles-js";
 import { Heading, Subheading, HeroDescription } from "styled-components/Title"
 import Card from "components/Card";
@@ -57,21 +57,31 @@ const Home = () => {
       </div>
       <br />
       <Container>
-        <div id="projects-section">
-          <Subheading>selected projects</Subheading>
-          <br />
-          <div id="cards-section">
-            {data.map(project => (
-              <Card
-                title={project.title}
-                description={project.description}
-                labels={project.labels}
-              />
-            ))}
-          </div>
+        <Subheading>selected projects</Subheading>
+        <br />
+        <div className="cards-section">
+          {projects.map(project => (
+            <Card
+              title={project.title}
+              description={project.description}
+              labels={project.labels}
+            />
+          ))}
+        </div>
+        <br />
+        <Subheading>blogs</Subheading>
+        <br />
+        <div className="cards-section">
+          {blogs.map(project => (
+            <Card
+              title={project.title}
+              description={project.description}
+              labels={project.labels}
+            />
+          ))}
         </div>
       </Container>
-      <br/>
+      <br />
     </Layout>
   )
 }
