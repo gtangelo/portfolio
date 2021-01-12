@@ -1,9 +1,21 @@
 import React from 'react'
 import './index.css'
+import Particles from "react-particles-js";
+
 
 const Footer = () => {
   return (
     <div className="wave-footer-container">
+      <Particles
+        params={{
+          particles: {
+            number: {
+              value: 15,
+            },
+          },
+        }}
+        className="footer-particles"
+      />
       <div class="custom-shape-divider-top-1610246279">
         <svg
           data-name="Layer 1"

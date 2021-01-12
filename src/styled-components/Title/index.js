@@ -6,22 +6,22 @@ const Title = styled.div`
 
 export const Heading = styled(Title)`
   margin-bottom: 20px;
-  font-size: 55px;
+  font-size: 50px;
   font-weight: bold;
 `
 
 export const Subheading = styled(Title)`
   margin-bottom: 5px;
   padding: 5px 10px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   text-transform: lowercase;
   border-bottom: solid #000 1px;
 `
 
 export const HeroDescription = styled(Title)`
-  font-size: 20px;
-  max-width: 850px;
+  font-size: 18px;
+  max-width: 800px;
 `
 
 export const CardHeading = styled(Title)`
