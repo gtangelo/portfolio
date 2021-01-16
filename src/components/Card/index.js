@@ -8,7 +8,7 @@ const Card = ({ img, title, description, labels, link }) => {
   return (
     <Link to={link} className="card-link">
       <CardContainer>
-        <img src={`../../../${img}`} alt="" style={{ width: "100%" }} />
+        <img src={img} alt="" style={{ width: "100%" }} />
         <div className="card-labels">
           {labels.map(label => (
             <div className="label" style={{ background: label.colour }}>
