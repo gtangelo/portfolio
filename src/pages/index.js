@@ -1,7 +1,5 @@
 import React from "react"
 import { EmptyLayout } from "components/Layout"
-import { ExpandMoreRounded } from "@material-ui/icons"
-// import ProjectCard from "../components/ProjectCard"
 import "./index.css"
 import { Container } from "styled-components/Container"
 import { projects, blogs } from "../data"
@@ -10,26 +8,7 @@ import { Heading, Subheading, HeroDescription } from "styled-components/Title"
 import Card from "components/Card";
 import Head from "components/Head";
 
-import { graphql, useStaticQuery } from 'gatsby';
-
 const Home = () => {
-  // const p = useStaticQuery(graphql`
-  //   query {
-  //     allMarkdownRemark {
-  //       edges {
-  //         node {
-  //           frontmatter {
-  //             title
-  //           }
-  //           html
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
-  // proje
-  // console.log(p)
-
   return (
     <EmptyLayout>
       <Head title="Gabriel Ting" />
@@ -92,7 +71,7 @@ const Home = () => {
           ))}
         </div>
         <br />
-        <Subheading>blogs</Subheading>
+        {/* <Subheading>blogs</Subheading>
         <br />
         <div className="cards-section">
           {blogs.map(blog => (
@@ -104,7 +83,7 @@ const Home = () => {
               link={blog.link}
             />
           ))}
-        </div>
+        </div> */}
       </Container>
       <br />
     </EmptyLayout>

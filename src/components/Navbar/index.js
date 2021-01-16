@@ -48,18 +48,21 @@ const Navbar = () => {
           </svg>
         </Link>
       </div>
-        {/* <Link to="/about" className="nav-link" onClick={closeMenu}>
-          About
-        </Link>
-        <Link to="/project" className="nav-link" onClick={closeMenu}>
-          Projects
-        </Link>
-        <Link to="/resume" className="nav-link" onClick={closeMenu}>
-          Resume
-        </Link>
-        <Link to="/blog" className="nav-link" onClick={closeMenu}>
-          Blog
-        </Link> */}
+      {/* <Link to="/about" className="nav-link" onClick={closeMenu}>
+        About
+      </Link>
+      <Link to="/project" className="nav-link" onClick={closeMenu}>
+        Projects
+      </Link> */}
+      <Link to="/home" className="nav-link" onClick={closeMenu}>
+        Home
+      </Link>
+      <Link to="/resume" className="nav-link" onClick={closeMenu}>
+        Resume
+      </Link>
+      {/* <Link to="/blog" className="nav-link" onClick={closeMenu}>
+        Blog
+      </Link> */}
     </NavbarContainer>
   )
 }
