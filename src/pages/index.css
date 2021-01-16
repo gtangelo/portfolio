@@ -1,14 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1.5;
+}
+
 /* particles and wave background css styling*/
 .particles {
   position: absolute;
   top: 0;
   left: 0;
-  height: 65vh;
+  height: 60vh;
 }
 
 .wave-container {
   position: relative;
-  height: 65vh;
+  height: 60vh;
   background: linear-gradient(180deg, #174066 0%, #1254A2 100%);
 }
 
@@ -44,7 +51,7 @@
 
 /* hero section css styling*/
 #hero-section {
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   color: #FFFFFF;
   padding-top: 50px;

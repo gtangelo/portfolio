@@ -8,6 +8,17 @@ export const Container = styled.div`
   padding: 0 20px;
 `
 
+export const ProjectContainer = styled(Container)`
+  max-width: 1000px;
+
+  & img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+`
+
 export const CardContainer = styled.div`
   max-width: 430px;
   width: 100%;

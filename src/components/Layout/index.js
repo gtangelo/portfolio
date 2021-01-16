@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from 'components/Footer';
 import Navbar from "components/Navbar"
 import './index.css'
+import Head from "components/Head"
 
 const Layout = ({children}) => {
   return (

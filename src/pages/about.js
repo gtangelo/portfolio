@@ -3,10 +3,13 @@ import Layout from 'components/Layout'
 import Container from 'styled-components/Container'
 import me from './me.jpg'
 import './about.css'
+import Head from "components/Head"
+
 
 const About = () => {
   return (
     <Layout>
+      <Head title="About | Gabriel Ting" />
       <div className="about-wave-container">
         <div class="custom-shape-divider-bottom-1610267045">
           <svg

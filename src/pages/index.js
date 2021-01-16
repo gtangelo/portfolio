@@ -8,10 +8,32 @@ import { projects, blogs } from "../data"
 import Particles from "react-particles-js";
 import { Heading, Subheading, HeroDescription } from "styled-components/Title"
 import Card from "components/Card";
+import Head from "components/Head";
+
+import { graphql, useStaticQuery } from 'gatsby';
 
 const Home = () => {
+  // const p = useStaticQuery(graphql`
+  //   query {
+  //     allMarkdownRemark {
+  //       edges {
+  //         node {
+  //           frontmatter {
+  //             title
+  //           }
+  //           html
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+  // proje
+  // console.log(p)
+
+
   return (
     <Layout>
+      <Head title="Gabriel Ting" />
       <div className="wave-container">
         <Particles
           params={{
@@ -45,13 +67,13 @@ const Home = () => {
               aspiring to become as a frontend web developer!
             </HeroDescription>
             <br />
-            <br />
+            {/* <br />
             <div className="banner-arrow">
               <ExpandMoreRounded
                 className="arrow-down"
                 style={{ fontSize: 80 }}
               />
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>
