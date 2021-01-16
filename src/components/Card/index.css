@@ -19,6 +19,13 @@
   text-transform: uppercase;
 }
 
-.card-links {
+.card-link {
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease;
+}
 
+.card-link:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
 }

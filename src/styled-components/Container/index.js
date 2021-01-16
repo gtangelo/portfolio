@@ -12,10 +12,22 @@ export const ProjectContainer = styled(Container)`
   max-width: 1000px;
 
   & img {
-    max-width: 80%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  & * {
+    margin-bottom: 15px;
+  }
+
+  & ul {
+    margin-left: 30px;
+  }
+
+  & li {
+    margin-bottom: 5px;
   }
 `
 

@@ -2,7 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Public Sans', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
 }
 
 .App {
@@ -27,4 +28,39 @@
 
 .button:hover {
   cursor: pointer;
+}
+
+/* wave background */
+.header-wave-container {
+  position: relative;
+  height: 15vh;
+  background: linear-gradient(180deg, #174066 0%, #1254A2 100%);
+}
+
+.nav-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15vh;
+}
+
+.custom-shape-divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(161% + 1.3px);
+  height: 36px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+  fill: #FAFAFA;
 }

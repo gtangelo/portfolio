@@ -10,7 +10,7 @@ const Footer = () => {
         params={{
           particles: {
             number: {
-              value: 15,
+              value: 10,
             },
           },
         }}

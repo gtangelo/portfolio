@@ -1,13 +1,14 @@
 import React from 'react'
 import Head from "components/Head"
+import { Layout } from "components/Layout"
 
 
 const NotFound = () => {
   return (
-    <div>
+    <Layout>
       <Head title="Page not found | Gabriel Ting"/>
       Not Found
-    </div>
+    </Layout>
   )
 }
 

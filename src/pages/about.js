@@ -1,14 +1,14 @@
 import React from 'react'
-import Layout from 'components/Layout'
+import { EmptyLayout } from 'components/Layout'
 import Container from 'styled-components/Container'
-import me from './me.jpg'
+import me from 'assets/me.jpg'
 import './about.css'
 import Head from "components/Head"
 
 
 const About = () => {
   return (
-    <Layout>
+    <EmptyLayout>
       <Head title="About | Gabriel Ting" />
       <div className="about-wave-container">
         <div class="custom-shape-divider-bottom-1610267045">
@@ -30,7 +30,7 @@ const About = () => {
           <img className="me" alt="me" src={me} width="200px" />
         </Container>
       </div>
-    </Layout>
+    </EmptyLayout>
   )
 }
 

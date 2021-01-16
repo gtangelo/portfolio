@@ -48,7 +48,7 @@ const Navbar = () => {
           </svg>
         </Link>
       </div>
-        <Link to="/about" className="nav-link" onClick={closeMenu}>
+        {/* <Link to="/about" className="nav-link" onClick={closeMenu}>
           About
         </Link>
         <Link to="/project" className="nav-link" onClick={closeMenu}>
@@ -59,7 +59,7 @@ const Navbar = () => {
         </Link>
         <Link to="/blog" className="nav-link" onClick={closeMenu}>
           Blog
-        </Link>
+        </Link> */}
     </NavbarContainer>
   )
 }

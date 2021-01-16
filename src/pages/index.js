@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "components/Layout"
+import { EmptyLayout } from "components/Layout"
 import { ExpandMoreRounded } from "@material-ui/icons"
 // import ProjectCard from "../components/ProjectCard"
 import "./index.css"
@@ -30,9 +30,8 @@ const Home = () => {
   // proje
   // console.log(p)
 
-
   return (
-    <Layout>
+    <EmptyLayout>
       <Head title="Gabriel Ting" />
       <div className="wave-container">
         <Particles
@@ -87,6 +86,8 @@ const Home = () => {
               title={project.title}
               description={project.description}
               labels={project.labels}
+              img={project.img}
+              link={project.link}
             />
           ))}
         </div>
@@ -94,17 +95,19 @@ const Home = () => {
         <Subheading>blogs</Subheading>
         <br />
         <div className="cards-section">
-          {blogs.map(project => (
+          {blogs.map(blog => (
             <Card
-              title={project.title}
-              description={project.description}
-              labels={project.labels}
+              title={blog.title}
+              description={blog.description}
+              labels={blog.labels}
+              img={blog.img}
+              link={blog.link}
             />
           ))}
         </div>
       </Container>
       <br />
-    </Layout>
+    </EmptyLayout>
   )
 }
 

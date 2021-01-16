@@ -33,22 +33,25 @@ export const projects = [
     title: "Traceback",
     description:
       "Traceback is a Google Chrome extension which records the time user spends on different tasks.",
+    img: "traceback-banner.png",
     labels: [REACTJS],
-    pageURL: "",
+    link: "/project/traceback",
   },
   {
     title: "Flockr RESTFUL API",
     description:
       "Backend API project that is used to serve a communication tool application similar to Slack called Flockr.",
+    img: "flockr-banner.png",
     labels: [PYTHON, FLASK, TESTING],
-    pageURL: "",
+    link: "/project/flockr",
   },
   {
     title: "My Portfolio Website",
     description:
       "Created my portfolio website using ReactJS and my own custom CSS styling.",
+    img: "website-banner.png",
     labels: [REACTJS, HTML_CSS, UX_UI_DESIGN],
-    pageURL: "",
+    link: "/project/website",
   },
   // {
   //   title: "ReShare",
@@ -71,7 +74,8 @@ export const blogs = [
     title: "STEM Leaders Program",
     description:
       "Traceback is a Google Chrome extension which records the time user spends on different tasks.",
+    img: "traceback-banner.png",
     labels: [REACTJS],
-    pageURL: "",
+    link: "",
   },
 ]
