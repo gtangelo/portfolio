@@ -1,6 +1,6 @@
 .wave-footer-container {
   position: relative;
-  height: 30vh;
+  height: 25vh;
   background: linear-gradient(360deg, #174066 0%, #1254A2 100%);
 }
 
@@ -8,7 +8,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 30vh;
+  height: 25vh;
 }
 
 .custom-shape-divider-top-1610246279 {

@@ -70,7 +70,6 @@ const Home = () => {
             />
           ))}
         </div>
-        <br />
         {/* <Subheading>blogs</Subheading>
         <br />
         <div className="cards-section">

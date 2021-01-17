@@ -6,37 +6,10 @@
 
 }
 
-.about-wave-container {
-  position: relative;
-  height: 50vh;
-  background: linear-gradient(180deg, #174066 0%, #1254A2 100%);
-}
-
-.custom-shape-divider-bottom-1610267045 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1610267045 svg {
-    position: relative;
-    display: block;
-    width: calc(186% + 1.3px);
-    height: 244px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1610267045 .shape-fill {
-    fill: #fafafa;
-}
-
-#about-section {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
+#me-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 56.9vh;
 }
