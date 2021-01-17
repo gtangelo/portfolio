@@ -29,6 +29,16 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
+      {/* <div id="footer-contents">
+        <br />
+        <div>
+          Github:{" "}
+          <a href="https://github.com/gtangelo/">
+            https://github.com/gtangelo/
+          </a>
+        </div>
+        <div>Gabriel Ting</div>
+      </div> */}
     </div>
   )
 }

@@ -1,6 +1,6 @@
 .wave-footer-container {
   position: relative;
-  height: 25vh;
+  height: 20vh;
   background: linear-gradient(360deg, #174066 0%, #1254A2 100%);
 }
 
@@ -8,7 +8,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 25vh;
+  height: 20vh;
 }
 
 .custom-shape-divider-top-1610246279 {
@@ -29,4 +29,13 @@
 
 .custom-shape-divider-top-1610246279 .shape-fill {
   fill: #FAFAFA;
+}
+
+#footer-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #FFFFFF;
 }

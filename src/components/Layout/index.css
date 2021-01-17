@@ -13,23 +13,6 @@
   flex-direction: column;
 }
 
-.button {
-  border-radius: 15px;
-  padding: 5px 10px;
-  background-color: #1a1a1a;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-  text-align: center;
-  width: 100px;
-  margin: 0 5px;
-  color: white;
-}
-
-.button:hover {
-  cursor: pointer;
-}
-
 /* wave background */
 .header-wave-container {
   position: relative;

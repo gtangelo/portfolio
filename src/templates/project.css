@@ -31,3 +31,37 @@
 .custom-shape-divider-bottom-1610757725 .shape-fill {
   fill: #FAFAFA;
 }
+
+.github-btn, .deploy-btn {
+  border-radius: 20px;
+  width: fit-content;
+  padding: 5px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 4px;
+  transition: all 0.3s ease;
+}
+
+.github-btn:hover, .deploy-btn:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.github-btn {
+  background: linear-gradient(360deg, #1e2125 0%, #2c3238 100%);
+}
+
+.github-btn a, .deploy-btn a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.deploy-btn {
+  background: linear-gradient(360deg, #4397d8 0%, #71bdf7 100%);
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
