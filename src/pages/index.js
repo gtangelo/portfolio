@@ -45,13 +45,6 @@ const Home = () => {
               aspiring to become as a frontend web developer!
             </HeroDescription>
             <br />
-            {/* <br />
-            <div className="banner-arrow">
-              <ExpandMoreRounded
-                className="arrow-down"
-                style={{ fontSize: 80 }}
-              />
-            </div> */}
           </div>
         </Container>
       </div>
@@ -83,8 +76,8 @@ const Home = () => {
             />
           ))}
         </div> */}
+        <br />
       </Container>
-      <br />
     </EmptyLayout>
   )
 }
