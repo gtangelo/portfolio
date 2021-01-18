@@ -12,24 +12,23 @@ const About = () => {
     <Layout>
       <Head title="About | Gabriel Ting" />
       <Container>
+        <br />
+        <br/>
         <div id="me-section">
-          <img className="me" alt="me" src={me} width="200px" />
+          <img className="me" alt="me" src={me} />
           <div style={{ maxWidth: 800 }}>
             <Heading>Hi, I'm Gabriel</Heading>
             <p>
               I am currently a penultimate student studying a Bachelor of
-              Computer Science degree. I am a well versed individual, striving
-              to complete tasks beyond expectations. Through my passion in
-              coding, I strive to become a web developer as a potential career.
+              Science (Computer Science) at UNSW. Through my passion in
+              coding, I strive to become a web developer!
             </p>
             <br />
             <p>
               Apart from my academic achievements, I actively engage in a wide
               range of personal and professional development opportunities
               throughout my study at UNSW. Currently, I am the Security Society
-              Projects Director and part of the Enactus UNSW IT Subcommittee
-              which aims to develop and foster various skills including
-              communication, leadership and technical abilities.
+              Projects Director and a member of the Enactus UNSW IT Subcommittee.
             </p>
             <br />
             <p>

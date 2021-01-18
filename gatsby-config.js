@@ -41,9 +41,17 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-fonts",
       options: {
-        fonts: [`public sans`]
+        fonts: [`public sans`],
       },
       display: "swap",
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Gabriel Ting`,
+        short_name: `Gabriel Ting`,
+        icon: "static/favicon.ico",
+      },
     },
   ],
   pathPrefix: "/portfolio",

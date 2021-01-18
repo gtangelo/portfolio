@@ -1,7 +1,12 @@
+footer {
+  margin-top: auto;
+}
+
 .wave-footer-container {
   position: relative;
   height: 20vh;
-  background: linear-gradient(360deg, #174066 0%, #1254A2 100%);
+  background: linear-gradient(180deg, rgba(47,47,47,1) 0%, rgba(6,6,6,1) 100%);
+  /* background: linear-gradient(360deg, #174066 0%, #1254A2 100%); */
 }
 
 .footer-particles {
@@ -36,6 +41,32 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  color: #FFFFFF;
+  height: auto;
+  margin-top: 55px;
+  gap: 10px;
+}
+
+#footer-contents > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  z-index: 1;
+  width: 150px;
+}
+
+#footer-contents > p {
+  color: #ffffff;
+  z-index: 1;
+}
+
+#footer-contents > div > a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in;
+}
+
+#footer-contents > div > a {
+  transition: all 0.2s ease-out;
 }

@@ -39,7 +39,7 @@ export const CardContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 20px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 50px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   margin-bottom: 2rem;
 `

@@ -53,20 +53,6 @@ export const projects = [
     labels: [REACTJS, HTML_CSS, UX_UI_DESIGN],
     link: "/project/website",
   },
-  // {
-  //   title: "ReShare",
-  //   description:
-  //     "Traceback is a Google Chrome extension which records the time user spends on different tasks.",
-  //   labels: [PYTHON],
-  //   pageURL: "",
-  // },
-  // {
-  //   title: "ReShare",
-  //   description:
-  //     "Traceback is a Google Chrome extension which records the time user spends on different tasks.",
-  //   labels: [PYTHON],
-  //   pageURL: "",
-  // },
 ]
 
 export const blogs = [

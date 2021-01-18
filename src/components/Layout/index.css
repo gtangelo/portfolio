@@ -17,7 +17,8 @@
 .header-wave-container {
   position: relative;
   height: 15vh;
-  background: linear-gradient(180deg, #174066 0%, #1254A2 100%);
+  background: linear-gradient(180deg, rgba(47,47,47,1) 0%, rgba(6,6,6,1) 100%);
+  /* background: linear-gradient(180deg, #174066 0%, #1254A2 100%); */
 }
 
 .nav-particles {

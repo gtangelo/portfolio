@@ -1,11 +1,16 @@
 import React from 'react'
 import './index.css'
 import Particles from "react-particles-js";
+import {
+  AiOutlineGithub,
+  AiFillLinkedin,
+  AiFillMail,
+} from "react-icons/ai"
 
 
 const Footer = () => {
   return (
-    <div className="wave-footer-container">
+    <footer className="wave-footer-container">
       <Particles
         params={{
           particles: {
@@ -29,17 +34,21 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      {/* <div id="footer-contents">
-        <br />
+      <div id="footer-contents">
         <div>
-          Github:{" "}
-          <a href="https://github.com/gtangelo/">
-            https://github.com/gtangelo/
+          <a href="https://github.com/gtangelo" target="_blank">
+            <AiOutlineGithub size="35px" color="#FFFFFF" />
+          </a>
+          <a href="https://www.linkedin.com/in/gabriel-ting/" target="_blank">
+            <AiFillLinkedin size="35px" color="#FFFFFF" />
+          </a>
+          <a href="mailto:gabrielting.info@gmail.com" target="_blank">
+            <AiFillMail size="35px" color="#FFFFFF" />
           </a>
         </div>
-        <div>Gabriel Ting</div>
-      </div> */}
-    </div>
+        <p>Made with ❤ using Gatsby</p>
+      </div>
+    </footer>
   )
 }
 

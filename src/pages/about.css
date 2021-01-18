@@ -1,9 +1,8 @@
 .me {
   object-fit: cover;
   border-radius: 50%;
-  height: 250px;
-  width: 250px;
-
+  height: 300px;
+  width: 300px;
 }
 
 #me-section {
@@ -11,5 +10,4 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 61.9vh;
 }
