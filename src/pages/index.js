@@ -13,11 +13,23 @@ const Home = () => {
     <EmptyLayout>
       <Head title="Gabriel Ting" />
       <div className="wave-container">
+        {/* params for particles from https://rpj.bembi.dev/#simple */}
         <Particles
           params={{
             particles: {
               number: {
                 value: 15,
+              },
+              size: {
+                value: 2,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
+                },
               },
             },
           }}
@@ -39,7 +51,7 @@ const Home = () => {
         </div>
         <Container>
           <div id="hero-section">
-            <Heading inverted>Hello, I'm Gabriel!</Heading>
+            <Heading inverted>GABRIEL TING</Heading>
             <HeroDescription inverted>
               I am a UNSW computer science student in my penultimate year
               aspiring to become as a frontend web developer!

@@ -15,7 +15,18 @@ const Footer = () => {
         params={{
           particles: {
             number: {
-              value: 10,
+              value: 7,
+            },
+            size: {
+              value: 2,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
             },
           },
         }}

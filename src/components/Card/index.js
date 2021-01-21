@@ -20,7 +20,6 @@ const Card = ({ img, title, description, labels, link }) => {
           <CardHeading>{title}</CardHeading>
           <CardDescription>{description}</CardDescription>
         </div>
-        {/* Page */}
         <br />
       </CardContainer>
     </Link>

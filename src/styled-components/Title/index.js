@@ -5,9 +5,18 @@ const Title = styled.div`
 `
 
 export const Heading = styled(Title)`
-  margin-bottom: 20px;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 65px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  @media (max-width: 768px) {
+    font-size: 55px;
+  }
+
+  @media (max-width: 510px) {
+    font-size: 36px;
+  }
 `
 
 export const Subheading = styled(Title)`
