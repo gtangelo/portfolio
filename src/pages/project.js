@@ -1,11 +1,11 @@
-import React from "react"
-import { Layout } from "components/Layout"
-import { Container } from "styled-components/Container"
-import Head from "components/Head"
-import { Subheading } from "styled-components/Title"
-import { projects, blogs } from "../data"
-import Card from "components/Card"
-import './index.css'
+import React from "react";
+import { Layout } from "components/Layout";
+import { Container } from "styled-components/Container";
+import Head from "components/Head";
+import { Subheading } from "styled-components/Title";
+import { projects, blogs } from "../data";
+import Card from "components/Card";
+import './index.css';
 
 
 const Project = () => {
@@ -13,8 +13,9 @@ const Project = () => {
     <Layout>
       <Head title="Projects | Gabriel Ting" />
       <Container>
+        <br />
         <Subheading>projects</Subheading>
-        <br/>
+        <br />
         <div className="cards-section">
           {projects.map(project => (
             <Card
@@ -28,7 +29,7 @@ const Project = () => {
         </div>
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

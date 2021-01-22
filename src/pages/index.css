@@ -1,69 +1,17 @@
-/* particles and wave background css styling*/
-.particles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 60vh;
-}
-
-.wave-container {
-  position: relative;
-  height: 60vh;
-  background: linear-gradient(180deg, rgba(47,47,47,1) 0%, rgba(6,6,6,1) 100%);
-  /* background: linear-gradient(180deg, #174066 0%, #1254A2 100%); */
-}
-
-.custom-shape-divider-bottom-1610233301 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1610233301 svg {
-  position: relative;
-  display: block;
-  width: calc(163% + 1.3px);
-  height: 96px;
-  transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1610233301 .shape-fill {
-  fill: #FAFAFA;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .custom-shape-divider-bottom-1610233301 svg {
-      width: calc(163% + 1.3px);
-      height: 69px;
-  }
-}
-
 /* hero section css styling*/
+#hero-container {
+  background-color: #FFFFFF;
+}
+
 #hero-section {
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   color: #FFFFFF;
-  padding-top: 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.banner-arrow {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.arrow-down:hover {
-  cursor: pointer;
-}
-
 
 /* selected projects section */
 #projects-section {

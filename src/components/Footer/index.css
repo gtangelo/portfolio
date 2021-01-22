@@ -1,72 +1,37 @@
 footer {
-  margin-top: auto;
-}
-
-.wave-footer-container {
-  position: relative;
-  height: 20vh;
-  background: linear-gradient(180deg, rgba(47,47,47,1) 0%, rgba(6,6,6,1) 100%);
-  /* background: linear-gradient(360deg, #174066 0%, #1254A2 100%); */
-}
-
-.footer-particles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20vh;
-}
-
-.custom-shape-divider-top-1610246279 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1610246279 svg {
-  position: relative;
-  display: block;
-  width: calc(184% + 1.3px);
-  height: 81px;
-}
-
-.custom-shape-divider-top-1610246279 .shape-fill {
-  fill: #FAFAFA;
-}
-
-#footer-contents {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: auto;
-  margin-top: 55px;
-  gap: 10px;
+  margin-top: auto;
+  background: #FFFFFF;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 24px;
+  z-index: 1;
+  padding: 20px 0;
 }
 
-#footer-contents > div {
+footer > div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  color: #ffffff;
+  color: #000000;
   z-index: 1;
   width: 150px;
 }
 
-#footer-contents > p {
-  color: #ffffff;
+footer > p {
+  color: #000000;
   z-index: 1;
 }
 
-#footer-contents > div > a:hover {
+footer > div > a:hover {
   transform: scale(1.2);
   transition: all 0.2s ease-in;
 }
 
-#footer-contents > div > a {
+footer > div > a {
   transition: all 0.2s ease-out;
 }
