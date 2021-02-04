@@ -1,36 +1,8 @@
-.nav-particles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 15vh;
+.project-container {
+  margin-top: -30vh;
+  background-color: #fafafa;
 }
 
-.nav-wave-container {
-  position: relative;
-  height: 15vh;
-  background: linear-gradient(180deg, #174066 0%, #1254A2 100%);
-}
-
-.custom-shape-divider-bottom-1610757725 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1610757725 svg {
-  position: relative;
-  display: block;
-  width: calc(161% + 1.3px);
-  height: 36px;
-}
-
-.custom-shape-divider-bottom-1610757725 .shape-fill {
-  fill: #FAFAFA;
-}
 
 .github-btn, .deploy-btn {
   border-radius: 20px;

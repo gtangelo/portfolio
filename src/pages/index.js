@@ -23,22 +23,23 @@ const Home = () => {
           </div>
         </Container>
       </div>
-      <Container>
-        <br/>
-        <Subheading>selected projects</Subheading>
-        <br />
-        <div className="cards-section">
-          {projects.map(project => (
-            <Card
-              title={project.title}
-              description={project.description}
-              labels={project.labels}
-              img={project.img}
-              link={project.link}
-            />
-          ))}
-        </div>
-        {/* <Subheading>blogs</Subheading>
+      <div style={{ backgroundColor: "#FFFFFF" }}>
+        <Container>
+          <br />
+          <Subheading>selected projects</Subheading>
+          <br />
+          <div className="cards-section">
+            {projects.map(project => (
+              <Card
+                title={project.title}
+                description={project.description}
+                labels={project.labels}
+                img={project.img}
+                link={project.link}
+              />
+            ))}
+          </div>
+          {/* <Subheading>blogs</Subheading>
         <br />
         <div className="cards-section">
           {blogs.map(blog => (
@@ -51,8 +52,9 @@ const Home = () => {
             />
           ))}
         </div> */}
-        <br />
-      </Container>
+          <br />
+        </Container>
+      </div>
     </Layout>
   );
 };

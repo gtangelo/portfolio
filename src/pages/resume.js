@@ -1,34 +1,22 @@
-import React from 'react'
-import { Layout } from "components/Layout"
-import { ProjectContainer } from "styled-components/Container"
-import Head from "components/Head"
+import React from 'react';
+import { Layout } from "components/Layout";
+import { Container } from "styled-components/Container";
+import Head from "components/Head";
 
 const Resume = () => {
   return (
     <Layout>
       <Head title="Resume | Gabriel Ting" />
-      <ProjectContainer>
+      <Container>
         <br />
-        <div
-          style={{
-            marginLeft: "auto",
-            marginRight: "auto",
-            width: "90%",
-            height: 1250,
-          }}
-        >
-          <iframe
-            width="100%"
-            height="100%"
-            title="Resume"
-            src="https://gtangelo.github.io/portfolio/resume.pdf"
-            type="application/pdf"
-          />
-        </div>
         <br />
-      </ProjectContainer>
+        <img src="/resume.jpg" alt="Resume" style={{ width: "70%" }} />
+        <br />
+        <br />
+        <br />
+      </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

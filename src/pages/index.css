@@ -1,12 +1,11 @@
 /* hero section css styling*/
 #hero-container {
-  background-color: #FFFFFF;
+  background-color: #f1f1f1;
 }
 
 #hero-section {
   height: 50vh;
   width: 100%;
-  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

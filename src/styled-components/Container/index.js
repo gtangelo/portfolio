@@ -9,6 +9,10 @@ export const Container = styled.div`
 
 export const ProjectContainer = styled(Container)`
   max-width: 1000px;
+  margin-top: -30vh;
+  background-color: #fafafa;
+  border-radius: 30px;
+  padding: 50px 40px;
 
   & img {
     width: 90%;
@@ -17,16 +21,43 @@ export const ProjectContainer = styled(Container)`
     margin-right: auto;
   }
 
-  & * {
-    margin-bottom: 15px;
-  }
+  /* & * {
+    margin-bottom: 20px;
+  } */
 
   & ul {
     margin-left: 30px;
+    margin-bottom: 15px;
   }
 
   & li {
     margin-bottom: 5px;
+  }
+
+  & h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  & h2 {
+    font-size: 24px;
+    border-bottom: solid #a5a5a5 1px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  & strong {
+    background-color: #faeab5;
+    padding: 5px 0;
+    font-weight: normal;
+  }
+
+  & p {
+    font-size: 15px;
+    margin-bottom: 15px;
   }
 `;
 

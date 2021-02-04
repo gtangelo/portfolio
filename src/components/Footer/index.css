@@ -6,7 +6,7 @@ footer {
   height: auto;
   margin-top: auto;
   background: #FFFFFF;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 24px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 24px; */
   z-index: 1;
   padding: 20px 0;
 }
