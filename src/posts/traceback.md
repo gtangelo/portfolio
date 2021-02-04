@@ -2,7 +2,6 @@
 title: "Traceback"
 github: "https://github.com/gtangelo/traceback"
 deploy: ""
-banner: "/traceback-banner.png"
 ---
 
 ## Overview

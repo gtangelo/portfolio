@@ -9,10 +9,11 @@ export const Container = styled.div`
 
 export const ProjectContainer = styled(Container)`
   max-width: 1000px;
-  margin-top: -30vh;
+  padding-top: 50px;
+  /* margin-top: -30vh;
   background-color: #fafafa;
   border-radius: 30px;
-  padding: 50px 40px;
+  padding: 50px 40px; */
 
   & img {
     width: 90%;

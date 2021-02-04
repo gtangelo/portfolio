@@ -2,7 +2,6 @@
 title: "My Portfolio Website"
 github: "https://github.com/gtangelo/portfolio"
 deploy: ""
-banner: "/website-banner.png"
 ---
 ## Overview
 **Developing a personal website was a perfect opportunity to put my skills into action.** It was a fun project I did over the summer holidays where I learned about using Gatsby for the first time and allowed myself to showcase my projects I accomplished so far!

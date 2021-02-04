@@ -2,7 +2,6 @@
 title: "Flockr RESTFUL API"
 github: "https://github.com/gtangelo/flockr-backend"
 deploy: "https://flockr-wed15mango1.herokuapp.com/"
-banner: "/flockr-banner.png"
 ---
 ## Overview
 ![Flockr](../assets/flockr.png)

@@ -14,7 +14,6 @@ export const query = graphql`
         title
         github
         deploy
-        banner
       }
       html
     }
@@ -27,11 +26,11 @@ const Project = (props) => {
       <Head
         title={`${props.data.markdownRemark.frontmatter.title} | Gabriel Ting`}
       />
-      <img
+      {/* <img
         style={{ width: "100%", height: "500px", objectFit: "cover" }}
         src={props.data.markdownRemark.frontmatter.banner}
         alt="Banner"
-      />
+      /> */}
       <ProjectContainer>
         <h1>{props.data.markdownRemark.frontmatter.title}</h1>
         <div className="btn-container">
