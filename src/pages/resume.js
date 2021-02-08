@@ -2,6 +2,7 @@ import React from 'react';
 import { Layout } from "components/Layout";
 import Head from "components/Head";
 import './resume.css';
+import resume from "assets/resume.png";
 
 const Resume = () => {
   return (
@@ -14,7 +15,7 @@ const Resume = () => {
           href="/resume.pdf"
           title="Resume"
         >
-          <img src="/resume.jpg" alt="Resume"/>
+          <img src={resume} alt="Resume"/>
         </a>
       </div>
       <br />
