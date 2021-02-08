@@ -3,7 +3,7 @@ import { Layout } from "components/Layout";
 import { Container } from "styled-components/Container";
 import Head from "components/Head";
 import { Subheading } from "styled-components/Title";
-import { projects, blogs } from "../data";
+import { blogs } from "../data";
 import Card from "components/Card";
 import "./index.css";
 
@@ -16,7 +16,7 @@ const Blog = () => {
         <Subheading>blog</Subheading>
         <br />
         <div className="cards-section">
-          {projects.map(project => (
+          {blogs.map(project => (
             <Card
               title={project.title}
               description={project.description}
