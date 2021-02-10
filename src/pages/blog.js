@@ -15,7 +15,7 @@ const Blog = () => {
         <br />
         <Subheading>blog</Subheading>
         <br />
-        {/* <div className="cards-section">
+        <div className="cards-section">
           {blogs.map(project => (
             <Card
               title={project.title}
@@ -25,8 +25,7 @@ const Blog = () => {
               link={project.link}
             />
           ))}
-        </div> */}
-        Stay tuned for some articles!
+        </div>
       </Container>
     </Layout>
   );

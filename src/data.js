@@ -28,6 +28,16 @@ const TESTING = {
   colour: "#2EA44F",
 };
 
+const DOCKER = {
+  title: "Docker",
+  colour: "#4285F4",
+};
+
+const CTF = {
+  title: "CTF",
+  colour: "#EA4335",
+};
+
 export const projects = [
   {
     title: "Traceback",
@@ -57,12 +67,11 @@ export const projects = [
 
 export const blogs = [
   {
-    title: "STEM Leaders Program",
-    description:
-      "Traceback is a Google Chrome extension which records the time user spends on different tasks.",
-    img: "traceback-banner.png",
-    labels: [REACTJS],
-    link: "",
+    title: "CTF Infrastructure on GCP",
+    description: "Setting up the infrastructure of SecSoc 2021 O-Week CTF",
+    img: "ctf-banner.png",
+    labels: [DOCKER, CTF],
+    link: "/ctf",
   },
   {
     title: "My Portfolio Website",

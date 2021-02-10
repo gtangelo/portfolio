@@ -26,7 +26,7 @@ export const ProjectContainer = styled(Container)`
     margin-bottom: 20px;
   } */
 
-  & ul {
+  & ul, & ol {
     margin-left: 30px;
     margin-bottom: 15px;
   }
@@ -59,6 +59,17 @@ export const ProjectContainer = styled(Container)`
   & p {
     font-size: 15px;
     margin-bottom: 15px;
+  }
+
+  & pre {
+    width: 100%;
+    color: white;
+    white-space: pre-wrap;
+    background: #333;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
   }
 `;
 
