@@ -1,40 +1,38 @@
 nav {
   background: #FFFFFF;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
   width: 100%;
-  gap: 80px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 24px;
   z-index: 1;
+  min-height: 80px;
 }
 
-.logo {
+.icon {
   position: absolute;
   max-width: 1430px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  height: 10vh;
+  padding: 0 20px;
+}
+
+.icon img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 45px;
+}
+
+.icon img:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.06);
+}
+
+.menu {
+  display: none;
+  height: 80px;
   z-index: 1;
 }
 
-.logo img {
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.logo img:hover {
-  transition: transform 0.3s ease;
-  transform: scale(1.1);
-}
-
-/* .nav-item {
-  z-index: 2;
-  list-style: none;
-} */
 
 .nav-link {
   text-decoration: none;
@@ -44,6 +42,11 @@ nav {
   transition: transform 0.3s ease;
   color: #333333;
   z-index: 1;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
 }
 
 .nav-link:hover {
@@ -53,62 +56,30 @@ nav {
   transform: scale(1.1);
 }
 
-.menu-container {
-  display: none;
-  filter: invert(1);
-}
-
 
 @media screen and (max-width: 960px) {
-  .navbar-links-container {
-    display: none;
+  nav {
+    flex-direction: column;
   }
 
-  .logo-container {
-    left: 0px;
+  .icon {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-  }
-
-  .menu-container {
-    display: block;
-    position: absolute;
-    right: 10vw;
-    cursor: pointer;
-    z-index: 1;
-  }
-
-  .active {
-    display: block;
-    width: 100%;
-    position: absolute;
-    /* background: red; */
-    top: 60px;
-    z-index: 1;
-  }
-
-  .nav-item {
-    background-color: #222222;
-    height: 9vh;
-    display: flex;
-    align-self: center;
-    justify-content: center;
+    justify-content: space-between;
+    position: relative;
   }
 
   .nav-link {
-    color: #fff;
-    height: 100%;
-    padding-bottom: 0px;
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
   }
 
-  .nav-link:hover {
-    color: #242424;
-    border-radius: 0;
-    margin-top: 0px;
-    border-bottom: 0px;
-    transition: none;
-    color: grey;
+  .none {
+    display: none;
+  }
+
+  .menu {
+    display: initial;
   }
 }
