@@ -4,7 +4,7 @@ github: "https://github.com/gtangelo/portfolio"
 deploy: ""
 ---
 ## Overview
-**Developing a personal website was a perfect opportunity to put my skills into action.** It was a fun project I did over the summer holidays where I learned about using Gatsby for the first time and allowed myself to showcase my projects I accomplished so far!
+`Developing a personal website was a perfect opportunity to put my skills into action.` It was a fun project I did over the summer holidays where I learned about using Gatsby for the first time and allowed myself to showcase my projects I accomplished so far!
 ## Why a personal website?
 Like most other people, creating a personal website is another avenue where you could showcase your projects or share your thoughts out there. Not only that but online users can find inspiration in visiting a personal website through seeing other individual's projects, blog posts or even guides.
 

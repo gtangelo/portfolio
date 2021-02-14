@@ -63,20 +63,20 @@ export const projects = [
     labels: [REACTJS, HTML_CSS, UX_UI_DESIGN],
     link: "/website",
   },
-  // {
-  //   title: "Enactus UNSW Website",
-  //   description: "Help redesign and update UNSW Enactus Society's website",
-  //   img: "enactus-banner.png",
-  //   labels: [REACTJS, HTML_CSS, UX_UI_DESIGN],
-  //   link: "https://enactusunsw.org/",
-  // },
-  // {
-  //   title: "Security Society Website",
-  //   description: "Redesign landing page and improve existing features",
-  //   img: "secsoc-banner.png",
-  //   labels: [HTML_CSS, UX_UI_DESIGN],
-  //   link: "https://unswsecurity.com/",
-  // },
+  {
+    title: "Enactus UNSW Website",
+    description: "Help redesign and update UNSW Enactus Society's website",
+    img: "enactus-banner.png",
+    labels: [REACTJS, HTML_CSS, UX_UI_DESIGN],
+    link: "https://enactusunsw.org/",
+  },
+  {
+    title: "Security Society Website",
+    description: "Redesign landing page and improve existing features",
+    img: "secsoc-banner.png",
+    labels: [HTML_CSS, UX_UI_DESIGN],
+    link: "https://unswsecurity.com/",
+  },
 ];
 
 export const blogs = [

@@ -26,7 +26,8 @@ export const ProjectContainer = styled(Container)`
     margin-bottom: 20px;
   } */
 
-  & ul, & ol {
+  & ul,
+  & ol {
     margin-left: 30px;
     margin-bottom: 15px;
   }
@@ -40,6 +41,10 @@ export const ProjectContainer = styled(Container)`
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 5px;
+
+    @media (max-width: 510px) {
+      font-size: 29px;
+    }
   }
 
   & h2 {
@@ -50,7 +55,7 @@ export const ProjectContainer = styled(Container)`
     margin-bottom: 15px;
   }
 
-  & strong {
+  & p > code {
     background-color: #faeab5;
     padding: 5px 0;
     font-weight: normal;
@@ -64,7 +69,7 @@ export const ProjectContainer = styled(Container)`
   & pre {
     width: 100%;
     color: white;
-    white-space: pre-wrap;
+    overflow: auto;
     background: #333;
     padding: 15px 20px;
     border-radius: 20px;

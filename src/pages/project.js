@@ -3,7 +3,7 @@ import { Layout } from "components/Layout";
 import { Container } from "styled-components/Container";
 import Head from "components/Head";
 import { Subheading } from "styled-components/Title";
-import { projects, blogs } from "../data";
+import { projects } from "../data";
 import Card from "components/Card";
 import './index.css';
 

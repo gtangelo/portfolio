@@ -7,10 +7,10 @@ deploy: ""
 ## Overview
 
 ### Problem
-Without effective tracking on the time spent on different tasks, this can lead to poor time management. Thus, it is important for users to track the time and effort spent on certain tasks so that they can analyse where the hours are spent for improved productivity.
+Without effective tracking on the time spent on different tasks, this can lead to poor time management. Thus, it is `important for users to track the time and effort spent on certain tasks` so that they can analyse where the hours are spent to improve productivity.
 
 ### Solution
-**Traceback** is a Google Chrome extension which records the time user spends on different tasks. The aim of this extension is to empower users to monitor the time spent on a task and reduce the effort to do so.
+Traceback is a Google Chrome extension which `records the time user spends on different tasks.` The aim of this extension is to empower users to monitor the time spent on a task and reduce the effort to do so.
 
 ## Demo and Features
 ![Traceback Demo](../assets/traceback-demo.gif)

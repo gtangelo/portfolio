@@ -29,7 +29,7 @@ const Home = () => {
           <Subheading>selected projects</Subheading>
           <br />
           <div className="cards-section">
-            {projects.map(project => (
+            {projects.slice(0, 3).map(project => (
               <Card
                 title={project.title}
                 description={project.description}

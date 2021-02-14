@@ -5,7 +5,7 @@ deploy: ""
 date: "Feb 8th 2021"
 ---
 ## Introduction
-When I became a Projects Director at the UNSW Security Society (SecSoc), one of my main responsibilities I had early on was to be in charge of setting up the infrastructure of our 2021 O-Week CTF. You may think that the process of setting such infrastructure should be relatively simple. After all, if one had prior experiences in deploying web applications, this task should be trivial. The problem was that I had barely any experience in deploying a web application by myself, let alone understanding what a CTF was to begin with :P
+`When I became a Projects Director at the UNSW Security Society (SecSoc), one of my main responsibilities I had early on was to be in charge of setting up the infrastructure of our 2021 O-Week CTF.` You may think that the process of setting such infrastructure should be relatively simple. After all, if one had prior experiences in deploying web applications, this task should be trivial. The problem was that I had barely any experience in deploying a web application by myself, let alone understanding what a CTF was to begin with :P
 
 ## CTF Beginnings
 When being given this task, the first thing I did was to understand what a CTF was. One of my main reasons to joining SecSoc was to learn more about cyber security and develop my interest into the field. No doubt that this was perfect to do so. I have often heard the term 'Capture the Flag' before in my first year but I never understood what it means. So the first thing I did was to understand what a CTF was and to get a good practice on how it works. Luckily, as I was part of the SecSoc, there was some awesome people showing me how a CTF works :)
@@ -39,7 +39,7 @@ sudo apt install --yes docker-ce
 sudo usermod -aG docker $USER
 logout
 ```
-and ssh your way back in after `logout`. Now install docker-compose using these commands:
+and ssh your way back in after **logout**. Now install docker-compose using these commands:
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
@@ -123,7 +123,7 @@ sudo ufw allow 'Nginx Full'
 sudo ufw allow 'OpenSSH'
 sudo ufw enable
 ```
-11. Create a file at `/etc/nginx/sites-available/mydomain.com` (replace mydomain.com with your domain) with the following contents.
+11. Create a file at **/etc/nginx/sites-available/mydomain.com** (replace mydomain.com with your domain) with the following contents.
 ```
 limit_req_zone  $binary_remote_addr zone=mylimit:10m rate=10r/s;
 limit_conn_zone $binary_remote_addr zone=addr:10m;
@@ -143,14 +143,14 @@ server {
   }
 }
 ```
-This sets up rate-limiting at 10 requests per second, and a max of 10 simultaneous connections per IP address at a time. Also, it tells Nginx to route requests to `mydomain.com` at port 8000.
+This sets up rate-limiting at 10 requests per second, and a max of 10 simultaneous connections per IP address at a time. Also, it tells Nginx to route requests to **mydomain.com** at port 8000.
 
 12. Now, create a symbolic link with these commands.
 ```
 sudo ln -s /etc/nginx/sites-available/mydomain.com /etc/nginx/sites-enabled/mydomain.com
 sudo nginx -s reload
 ```
-13. Run `docker-compose up -d`. Now when visiting the domain, you should see CTFd running on a http connection.
+13. Run **docker-compose up -d**. Now when visiting the domain, you should see CTFd running on a http connection.
 
 ### SSLing It Up!
 14. To allow our domain to have HTTPS encryption, we must create an SSL certificate. Luckily, we can use Certbot and LetsEncrypt for this! Follow these commands:
