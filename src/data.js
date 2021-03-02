@@ -70,13 +70,13 @@ export const projects = [
     labels: [REACTJS, HTML_CSS, UX_UI_DESIGN],
     link: "https://enactusunsw.org/",
   },
-  {
-    title: "Security Society Website",
-    description: "Redesign landing page and improve existing features",
-    img: "secsoc-banner.png",
-    labels: [HTML_CSS, UX_UI_DESIGN],
-    link: "https://unswsecurity.com/",
-  },
+  // {
+  //   title: "Security Society Website",
+  //   description: "Redesign landing page and improve existing features",
+  //   img: "secsoc-banner.png",
+  //   labels: [HTML_CSS, UX_UI_DESIGN],
+  //   link: "https://unswsecurity.com/",
+  // },
 ];
 
 export const blogs = [
