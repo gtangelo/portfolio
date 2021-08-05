@@ -12,7 +12,7 @@ const Resume = () => {
       <div className="resume-container">
         <a
           download="gabriel-ting-resume.pdf"
-          href="/resume.pdf"
+          href="/resume.jpg"
           title="Resume"
         >
           <img src={resume} alt="Resume"/>
