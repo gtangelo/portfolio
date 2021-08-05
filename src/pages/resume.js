@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from "components/Layout";
 import Head from "components/Head";
 import './resume.css';
-import resume from "assets/resume.png";
+import resume from "assets/resume.jpg";
 
 const Resume = () => {
   return (
@@ -12,7 +12,7 @@ const Resume = () => {
       <div className="resume-container">
         <a
           download="gabriel-ting-resume.pdf"
-          href="/resume.jpg"
+          href="/resume.pdf"
           title="Resume"
         >
           <img src={resume} alt="Resume"/>
