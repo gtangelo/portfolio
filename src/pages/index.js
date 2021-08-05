@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout } from "components/Layout";
+import { PageLayout } from "layouts/PageLayout"
 import "./index.css";
 import { Container } from "styled-components/Container";
 import { projects } from "../data";
@@ -9,7 +9,7 @@ import Head from "components/Head";
 
 const Home = () => {
   return (
-    <Layout>
+    <PageLayout>
       <Head title="Gabriel Ting" />
       <div id="hero-container">
         <Container>
@@ -55,7 +55,7 @@ const Home = () => {
           <br />
         </Container>
       </div>
-    </Layout>
+    </PageLayout>
   );
 };
 
